@@ -30,8 +30,8 @@ def solve_dual_univar(x, y, u, l1r, l2r, a0=0):
   """
     Solve approximaltely a single dual ascent step.
     Input:
-      x: a single sample 
-      y: target
+      x: single example (vector)
+      y: single target (scalar)
       u: pre-shrinkage representation of primal solution
     Output: scalar a -- optimal dual step
   """
@@ -85,8 +85,8 @@ def yasso_lasso(X, y, l1r, l2r, q=[], u=[], a=[]):
   """
     Efficient solver for ``Elastic Nets'' with true sparsity.
     Input:
-      x: a single sample 
-      y: target
+      X: data matrix (#examples x #features)
+      y: targets, vector of size #examples
       u: pre-shrinkage representation of primal solution
     Output:
       w: optimal primal solution
