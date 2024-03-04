@@ -124,7 +124,7 @@ def gen_data(m, n, sparsity, noise):
   
 if __name__ == "__main__":
   m, n, sparsity, noise = 100, 200, 0.9, 0.001
-  l1r, l2r = 0.05/m, 0.01/m
+  l1r, l2r = 0.10/m, 0.001/m
   X, y, w = gen_data(m, n, sparsity, noise)
   q = np.random.rand(m)
   X, y, = scale_data(X, y, q)
