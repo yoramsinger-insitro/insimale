@@ -1,0 +1,17 @@
+\begin{tikzcd}
+    &&& \Large\bullet \\
+    & \textcolor{rgb,255:red,55;green,55;blue,251}{\Large\bullet} && \textcolor{rgb,255:red,55;green,55;blue,251}{\stackrel{\huge\bullet}{\large\mathsf c_4}} && \textcolor{rgb,255:red,214;green,92;blue,92}{\Large\bullet} \\
+    \textcolor{rgb,255:red,55;green,55;blue,251}{\stackrel{\huge\bullet}{\large\mathsf c_1}} & \textcolor{rgb,255:red,55;green,55;blue,251}{\stackrel{\huge\bullet}{\large\mathsf c_2}} & \textcolor{rgb,255:red,55;green,55;blue,251}{\stackrel{\huge\bullet}{\large\mathsf c_3}} && \textcolor{rgb,255:red,214;green,92;blue,92}{\Large\bullet} && \textcolor{rgb,255:red,55;green,55;blue,251}{\stackrel{\huge\bullet}{\large\mathsf c_8}} \\
+    &&& \textcolor{rgb,255:red,55;green,55;blue,251}{\stackrel{\huge\bullet}{\large\mathsf c_5}} & \textcolor{rgb,255:red,55;green,55;blue,251}{\stackrel{\huge\bullet}{\large\mathsf c_6}} & \textcolor{rgb,255:red,214;green,92;blue,92}{\stackrel{\huge\bullet}{\large\mathsf c_7}}
+    \arrow[color={rgb,255:red,55;green,55;blue,251}, from=1-4, to=2-4]
+    \arrow["{{\large+}}"{description}, color={rgb,255:red,214;green,92;blue,92}, Rightarrow, from=1-4, to=2-6]
+    \arrow["{{\large -}}"{description}, color={rgb,255:red,55;green,55;blue,251}, from=1-4, to=2-2]
+    \arrow[color={rgb,255:red,214;green,92;blue,92}, Rightarrow, from=2-6, to=3-5]
+    \arrow[color={rgb,255:red,55;green,55;blue,251}, from=2-6, to=3-7]
+    \arrow[color={rgb,255:red,55;green,55;blue,251}, from=2-2, to=3-3]
+    \arrow[color={rgb,255:red,55;green,55;blue,251}, from=2-2, to=3-2]
+    \arrow[color={rgb,255:red,55;green,55;blue,251}, from=2-2, to=3-1]
+    \arrow[color={rgb,255:red,55;green,55;blue,251}, from=3-5, to=4-4]
+    \arrow[color={rgb,255:red,214;green,92;blue,92}, Rightarrow, from=3-5, to=4-6]
+    \arrow[color={rgb,255:red,55;green,55;blue,251}, from=3-5, to=4-5]
+\end{tikzcd}
